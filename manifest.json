@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Trump Blocker",
+  "description": "For the LOL's",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "trump_blocker_logo.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab", 
+   "webRequest",
+   "*://google.com/"
+   ]
+}
